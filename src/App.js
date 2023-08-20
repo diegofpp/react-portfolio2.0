@@ -10,8 +10,8 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-
-      <div className="App font-roboto bg-white text-black">
+    
+      <div className="p-6 font-roboto bg-white text-black">
 
       <Navbar />
       <Hero id="hero" />
@@ -22,6 +22,7 @@ function App() {
 
 
       </div>
+      
 
     
   );
