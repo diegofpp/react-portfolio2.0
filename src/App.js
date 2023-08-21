@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     
-      <div className="p-6 font-roboto bg-white text-black">
+      <div className="font-roboto bg-white text-black">
 
       <Navbar />
       <Hero id="hero" />

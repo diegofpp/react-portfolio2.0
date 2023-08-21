@@ -4,9 +4,9 @@ import { Link } from 'react-scroll';
 const Hero = () => {
   return (
 
-    <section id="hero">
-      <div class="mt-32 flex flex-col items-center md:flex md:justify-center md:items-center">
-        <div class="inline-block mt-5"> 
+    
+      <div className="flex flex-col items-center md:flex md:justify-center md:items-center">
+        <div className="inline-block mt-32"> 
         <img
           src='https://i.postimg.cc/FFCnPwWn/IMG-0402-1.jpg'
           alt='Hero'
@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
 
         
-        <div class="p-2">
+        <div className="p-2">
 
           <h1 className="text-3xl font-bold mt-4 text-center tracking-tighter">
             Hello, my name is Diego and I am a{' '}
@@ -42,7 +42,7 @@ const Hero = () => {
               smooth={true}
               duration={500}
             >
-            <button className="bg-white text-black rounded-lg text-lg border border-black p-2">
+            <button className="bg-white text-black rounded-lg text-lg borderr border-black p-2">
               See Projects
             </button>
             </Link>
@@ -50,8 +50,7 @@ const Hero = () => {
 
         </div>
       </div>
-      
-    </section>
+
 
   );
 };
