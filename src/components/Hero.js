@@ -42,7 +42,7 @@ const Hero = () => {
               smooth={true}
               duration={500}
             >
-            <button className="bg-white text-black rounded-lg text-lg borderr border-black p-2">
+            <button className="bg-white text-black rounded-lg text-lg border border-black p-2">
               See Projects
             </button>
             </Link>
