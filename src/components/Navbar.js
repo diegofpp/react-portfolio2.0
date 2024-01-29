@@ -5,7 +5,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
   const Links = [
-    { name: 'About Me', link: 'hero' },
+    { name: 'About Me', link: 'aboutme' },
     { name: 'Projects', link: 'projects' },
     { name: 'Skillz', link: 'skillz' },
     { name: 'Contact', link: 'contact' },

@@ -4,7 +4,7 @@ import '../src/index.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
-import Skillz from './components/Skillz';
+import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Hero id="hero" />
       <Projects id="projects" />
-      <Skillz id="skillz" />
+      <Skills id="skills" />
       <Contact id="contact" />
       <Footer id="footer" />
 

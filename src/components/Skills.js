@@ -4,7 +4,7 @@ const Skills = () => {
   const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Git'];
 
   return (
-    <section id="skillz">
+    <section id="skills">
     <div className="mt-1">
         <h1 className="text-3xl md:text-4xl font-bold mt-20 text-center tracking-tighter"><span className="text-white bg-black inline-block">Skills</span>.</h1>
     </div>

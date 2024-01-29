@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const Hero = () => {
   return (
 
-    
+    <section id="aboutme">
       <div className="flex flex-col items-center md:flex md:justify-center md:items-center">
         <div className="inline-block mt-32"> 
         <img
@@ -50,6 +50,7 @@ const Hero = () => {
 
         </div>
       </div>
+      </section>
 
 
   );
